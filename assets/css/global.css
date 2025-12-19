@@ -2,12 +2,15 @@
     font-weight:600;
 }
 
+p, h1 {
+    color:white
+}
+
 #book-name, .cliffhanger {
     font-style:italic;
 }
-
+ 
 html, body {
-    height: 100vh;
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -17,5 +20,4 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
