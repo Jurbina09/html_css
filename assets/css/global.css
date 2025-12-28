@@ -2,6 +2,7 @@
     font-weight:600;
 }
 
+/*color placeholder for visibility*/
 p, h1 {
     color:white
 }
@@ -9,15 +10,20 @@ p, h1 {
 #book-name, .cliffhanger {
     font-style:italic;
 }
- 
+
 html, body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url('../imgs/bg1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#navbar > ul {
+    display: flex;
+    justify-content: space-around;}
